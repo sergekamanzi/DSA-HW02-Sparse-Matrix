@@ -1,51 +1,16 @@
 # DSA-HW02-Sparse-Matrix
 
 
-Description
+DESCRIPTION
 This project allows you to perform operations (addition, subtraction, multiplication) on sparse matrices. Sparse matrices are matrices in which most elements are zero. The project reads two sparse matrices from input files, performs the specified operation, and writes the result to an output file.
-
-Folder Structure
-
-DSA-HW02---Sparse-Matrix/
-│
-├── code/
-│   ├── src/
-│       └── sparse_matrix.py
-|
-|── outputs/
-│       ├── easy_sample_01.txt
-│       └── easy_sample_02.txt
-|       ├── ...
-│
-├── sample_inputs/
-│   ├── easy_sample_01_1.txt
-│   └── easy_sample_01_2.txt
-|   ├── easy_sample_01_3.txt
-│   └── ...
-│
-└── README.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Prerequisites
 Python 3.x
 Usage
 Clone the repository:
-git clone "https://github.com/Samenergy/DSA-HW02---Sparse-Matrix.git"
+git clone "https://github.com/sergekamanzi/DSA-HW02-Sparse-Matrix.git"
 Navigate to the project directory:
-cd DSA-HW02---Sparse-Matrix
+cd DSA-HW02-Sparse-Matrix
 Ensure your input files are in the sample_inputs directory.
 
 Run the script:
@@ -68,9 +33,6 @@ cols=3
 Output
 The result of the operation will be saved in code/outputs/result.txt.
 
-Example
-Given two input files easy_sample_01_1.txt and easy_sample_01_2.txt, the script will perform the selected operation and save the result in easy_sample_01.txt.
-
-Notes
+NOTES
 Ensure the matrices conform to the mathematical rules for the selected operation.
 Handle file paths and ensure input files exist in the specified directory.
